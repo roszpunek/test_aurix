@@ -19,7 +19,7 @@ Gdy otrzymam prompt: "wykonaj prompt.md [repo], [TASK-ID]", wykonuję pełny wor
 # Preferuj pobranie nazwy z MCP Linear jeśli dostępne
 # W przeciwnym razie użyj formatu: task-id-slug-z-tytułu
 # Przykład: dla "AUR-6" + "Dodanie 3 podtytułu" = aur-6-dodanie-3-podtytulu
-git checkout -b feature/[nazwa-z-linear-lub-wygenerowana]
+git checkout -b [nazwa-z-linear-lub-wygenerowana]
 ```
 
 ### 3. Implementacja i pierwszy commit
@@ -28,7 +28,7 @@ git checkout -b feature/[nazwa-z-linear-lub-wygenerowana]
 ```bash
 git add .
 git commit -m "Initial implementation - krótki opis"
-git push origin feature/[nazwa-brancha]
+git push origin [nazwa-brancha]
 ```
 
 ### 4. Utworzenie Pull Request
@@ -40,11 +40,12 @@ gh pr create --draft --title "[TASK-ID] - [tytuł taska z Linear]" --body "[wyge
 **Ważne:** Title MUSI zawierać identyfikator taska (np. AUR-06, DEV-12) dla automatycznego połączenia z GitHub.
 
 ### 5. Iteracyjna praca
-Po każdej zmianie/poprawce automatycznie:
+Po każdej zmianie/poprawce:
+- czekam czy poprawki są zaakceptowane. Jeżeli tak to wykonam commit i push do gita:
 ```bash
 git add .
 git commit -m "Krótki, opisowy komunikat zmian"
-git push origin feature/[nazwa-brancha]
+git push origin [nazwa-brancha]
 ```
 
 ### 6. Zakończenie
@@ -81,7 +82,6 @@ Wszystkie commity używają prostego formatu:
   - Zasady: lowercase, kebab-case, cyfry bez zer wiodących
 ## Uwagi
 - PR jest tworzony jako draft na początku
-- Wszystkie zmiany są automatycznie commitowane i pushowane  
 - Branch name generowany z Linear lub według wzorca: `task-id-slug-z-tytułu`
 - Nie wykonuję merge bez wyraźnej prośby użytkownika
 - W przypadku błędów z MCP lub GitHub CLI - zgłaszam problem do rozwiązania
