@@ -14,4 +14,4 @@ Tutaj będzie trzeci podtytuł z zawartością placeholder.
 
 # Sekcja 2
 
-No ja mam m1 do wynajęcia
+No ja mam M3 do wynajęcia
