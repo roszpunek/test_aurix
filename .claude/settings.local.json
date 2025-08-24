@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__linear__linear_getIssues",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
