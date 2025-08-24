@@ -11,6 +11,7 @@ Gdy otrzymam prompt: "wykonaj prompt.md [repo], [TASK-ID]", wykonuję pełny wor
 - Wykorzystuj MCP Linear do pobrania pełnych szczegółów taska [TASK-ID]
 - Przeanalizuj wymagania, opis i acceptance criteria
 - Upewnij się, że rozumiesz zakres pracy
+- Przedstaw plan zmian
 - W przypadku błędów z MCP Linear - zgłoś problem do rozwiązania
 
 ### 2. Przygotowanie brancha
@@ -36,6 +37,7 @@ Natychmiast po pierwszym push wykonaj:
 ```bash
 gh pr create --draft --title "[TASK-ID] - [tytuł taska z Linear]" --body "[wygenerowany opis na podstawie taska Linear]"
 ```
+oraz zmień status issue w linear na "z Todo na In Progress"
 
 **Ważne:** Title MUSI zawierać identyfikator taska (np. AUR-06, DEV-12) dla automatycznego połączenia z GitHub.
 
