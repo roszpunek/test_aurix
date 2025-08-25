@@ -1,7 +1,8 @@
 # Workflow Configuration
 
 ## Główne zadanie
-Gdy otrzymam prompt: "wykonaj prompt.md [repo], [TASK-ID]", wykonuję pełny workflow developmentu z wykorzystaniem Linear MCP oraz GitHub MCP i GitHub CLI
+Gdy otrzymam prompt: "wykonaj prompt.md [TASK-ID]", wykonuję pełny workflow developmentu z wykorzystaniem Linear MCP oraz GitHub MCP i GitHub CLI
+Zawsze pracuję w repozytorium git, w którym jestem lokalnie
 
 **Uwaga:** [AUR-06] to tylko przykład - każdy task ma własny unikalny identyfikator (np. AUR-01, AUR-05, AUR-45, DEV-12, etc.).
 

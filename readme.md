@@ -1,16 +1,19 @@
 # Sekcja 1
 
-## Chapter 
+## Rozdział 
+1co znajdziesz w tym rozdziale:
 
 No i tutaj jest pierwszy commit i działająca apka
 
-## Chapter 2
+## Rozdział 2
+co znajdziesz w tym rozdziale:
 
 No i tutaj za to będzie już commit na nowej branczy
 
-## Chapter 3
+## Rozdział 3
+co znajdziesz w tym rozdziale:
 
-Tutaj będzie trzeci Chapter z zawartością placeholder.
+Tutaj będzie trzeci Rozdział z zawartością placeholder.
 
 # Sekcja 2
 
